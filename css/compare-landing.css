@@ -302,7 +302,7 @@ hr.small {
   background-color: #f6f6f6;
 }
 .comparison-table .text-center i {
-  margin-top: 19%;
+  margin-top: 15%;
 }
 .comparison-table.panel {
   -webkit-box-shadow: 0 0 0 transparent;
@@ -310,6 +310,10 @@ hr.small {
 }
 .comparison-table.panel > .row.content {
   border-bottom: 1px solid #7f7f7f;
+}
+.comparison-table.panel > .row.content p {
+  font-size: .7em;
+  margin: 15px 0;
 }
 .comparison-table.service-fee .cell-content-wrapper {
   border-right: 2px solid #f7f7f7;

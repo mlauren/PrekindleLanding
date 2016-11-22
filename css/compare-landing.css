@@ -77,6 +77,10 @@ hr.small {
 .font-grey {
   color: #555555;
 }
+.blue-text {
+  color: #1e96ff;
+  font-weight: 600;
+}
 .navbar-custom {
   position: absolute;
   top: 0;
@@ -314,6 +318,11 @@ hr.small {
 .comparison-table.panel > .row.content p {
   font-size: .7em;
   margin: 15px 0;
+}
+@media only screen and (min-width: 768px) {
+  .comparison-table.panel > .row.content p {
+    font-size: 18px;
+  }
 }
 .comparison-table.service-fee .cell-content-wrapper {
   border-right: 2px solid #f7f7f7;

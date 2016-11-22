@@ -79,6 +79,11 @@ hr.small {
 .font-grey {
   color: @gray;
 }
+
+.blue-text {
+  color: @theme-secondary;
+  font-weight: 600;
+}
 // Navigation
 
 .navbar-custom {
@@ -312,6 +317,10 @@ hr.small {
           p {
             font-size: .7em;
             margin: 15px 0;
+             @media only screen and (min-width: 768px) {
+                font-size: 18px;
+
+              }
           }
         }
     }

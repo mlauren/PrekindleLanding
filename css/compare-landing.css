@@ -22,6 +22,9 @@ p {
 p a {
   text-decoration: underline;
 }
+.no-padd {
+  padding: 0;
+}
 h1,
 h2,
 h3,
@@ -288,6 +291,37 @@ hr.small {
     font-size: 30px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .table-comparison thead img {
+    max-width: 45px;
+  }
+  .table-comparison thead tr th {
+    padding: 10px!important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .table-comparison tbody tr td {
+    padding: 10px!important;
+  }
+  .table-comparison tbody tr td i {
+    font-size: 1em;
+  }
+  .table-comparison tbody tr td.row-desc {
+    font-size: 12px;
+    padding: 10px!important;
+  }
+  .table-comparison tbody tr td.row-desc span {
+    min-width: 100px;
+    display: block;
+  }
+  .table-comparison tbody tr td .btn {
+    padding: 6px;
+    font-size: 10px;
+    width: 64px;
+    word-break: break-word;
+    white-space: normal;
+  }
+}
 .table-wide tr td:nth-child(2),
 .table-wide tr td:nth-child(3) {
   text-align: center;
@@ -298,6 +332,9 @@ hr.small {
 .table-wide tr td,
 .table-wide tr th {
   padding: 18px!important;
+}
+.comparison-table .check-box {
+  padding: 15px;
 }
 .comparison-table .header {
   padding: 10%;

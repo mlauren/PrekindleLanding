@@ -26,6 +26,10 @@ p {
 	}
 }
 
+.no-padd {
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -276,7 +280,49 @@ hr.small {
 }
 
 // Comparison Table
+.table-comparison {
+  @media only screen and (max-width: 768px) {
+    thead {
+      img {
+        max-width: 45px;
+      }
+      tr th {
+        padding: 10px!important;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        @media only screen and (max-width: 768px) {
+          padding: 10px!important;
 
+          i {
+            font-size: 1em;
+          }
+          &.row-desc {
+            font-size: 12px;
+            padding: 10px!important;
+            span {
+
+              min-width: 100px;
+              display: block;
+            }
+          }
+          .btn {
+            padding: 6px;
+            font-size: 10px;
+            width: 64px;
+            word-break: break-word;
+            white-space: normal;
+          }
+        }
+        
+      }
+    }
+  }
+
+}
 .table-wide {
 
   tr {
@@ -294,6 +340,14 @@ hr.small {
 }
 
 .comparison-table {
+    .check-box {
+      padding: 15px;
+    }
+    .cell-content {
+
+    }
+
+
     .header {
         padding: 10%;
     }

@@ -203,9 +203,17 @@ hr.small {
         h1 {
             font-size: 41px;
         }
+
     }
 }
 
+.intro-header {
+  @media only screen and (min-width: 768px) {
+    .btn-default {
+      display:none;
+    }
+  }
+}
 
 .intro-header, .intro-place {
 	background-color: @gray-light; 
@@ -214,6 +222,7 @@ hr.small {
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
 	margin-bottom: 50px;
+
 	.site-heading,
 	.post-heading,
 	.page-heading {

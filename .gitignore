@@ -4,7 +4,6 @@ logs
 npm-debug.log*
 
 # CSS
-css/
 
 # Runtime data
 pids

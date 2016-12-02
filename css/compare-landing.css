@@ -190,6 +190,11 @@ hr.small {
 .intro-place .site-heading h1 {
   font-size: 41px;
 }
+@media only screen and (min-width: 768px) {
+  .intro-header .btn-default {
+    display: none;
+  }
+}
 .intro-header,
 .intro-place {
   background-color: #777777;
